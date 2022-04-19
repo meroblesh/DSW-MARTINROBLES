@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7B113A;
+    color: bisque;
+    
+}
+img{
+    padding: 10px;
+
+}
+nav{
+    background-color: #dbb3d3;
+    color: white ;
+  
+}
+
+aside{
+    background-color: blue;
+    grid-column:4/5 ;
+    padding: 10px;
+}
+
+section{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   grid-column:1/4 ;
+   background-color: bisque;
+}
+
+footer{
+    background-color: #E6CCA9;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlace</title>
+    <link rel="stylesheet" href="css/estilocss3.css">
+    <link rel= "icon" href="img/image.ico">
+</head>
+<body>
+    <header>
+        <img src="img/image.png" alt="logo de sitio" height="150px" width="200px">
+        <hr>
+       <center><h1>APRENDIENDO HTML BÁSICO FLEX BOX, LISTAS Y ENLACES</h1> </center>
+       <hr>
+    </header>
+    <nav> 
+        <ul class="menu"> 
+        <li><a href="index.html"> INICIO </a></li>
+        <li>TEMAS 
+            <ul>
+                <li><a href="flex.html"> Flex Box</a></li>
+                <li><a href="lista.html"> Listas</a></li>
+                <li><a href="enlace.html"> Enlaces</a></li>
+          </ul>
+        </li>
+                   
+        <li>RECURSOS
+            <ul>
+                <li><a href="videoflex.html"> Video explicativo sobre flex Box</a></li>
+                <li><a href="videolista.html"> Video de Listas</a></li>
+                <li><a href="videoenlace.html"> Video de enlace</a></li>
+             </ul>
+        </li>
+                    
+        <li>APRENDIZAJE
+            <ul>
+                <li><a href="actividad1.html">Actividad 1</a></li>
+                <li><a href="actividad2.html">Actividad 2 </a></li>
+            </ul>
+        </li>
+                        
+        <li>ACERCA DEL AUTOR 
+            <ul>
+                <li><a href="autor.html">Autor </a></li>
+            </ul>
+        </li>    
+    </ul>
+</nav>
+        <hr>
+     <CEnter><H2>Tema 3 Enlaces</P></CEnter>
+        <hr>
+    <section>
+    <center><h1> ¿Que es un Enlaces? </h1></center>
+    <p>
+        Lo que caracteriza a la web como medio de comunicación es la navegación por medio de hipervínculos (links o enlaces). Esta conexión entre archivos permite al usuario elegir el sentido de la navegación.
+        En el HTML los enlaces se marcan con la etiqueta <a></a> y el atributo principal es href="" donde se escribe la ubicación del archivo de destino que puede estar en la misma carpeta que el archivo que lo está llamando, en otra carpeta del mismo sitio o en otro sitio web.<br>
+    
+        Entre las etiquetas <a href=""></a> se puede colocar cualquier elemento html que funcionará como botón, generalmente se coloca un texto o una imagen. Si es un texto, el navegador por defecto lo muestra en color azul y subrayado. Si es una imagen, algunos navegadores especialmente las versiones anteriores a las actuales, le pueden agregar un borde azul. <br>
+
+        <H1>Rutas de enlaces:</H1>
+        Se llama ruta al valor que se escribe dentro del atributo href="" y se pueden clasificar en dos tipos:<br>
+
+        <H1> Rutas absolutas:</H1>
+
+        Las rutas absolutas son las que definen la ubicación completa de un archivo en la web y empiezan desde https://nombredelsitio.com/archivo.html (el archivo de destino puede ser de cualquier extensión). Por ejemplo si queremos vincular nuestro sitio con Facebook, usaríamos una ruta absoluta y el código sería:<br>
+         &lt;a&gt;href="https://campus0e.unad.edu.co/campus/miscursos.php">CAMPUS VIRTUAL UNAD&lt;a&gt;
+
+        <h1>Rutas relativas:</h1>
+        
+         Las rutas relativas en cambio, definen la ubicación del archivo de destino en relación a la ubicación del archivo que lo está llamando. Ejemplo: si el archivo index.html vincula con quien-soy.html y están en la misma carpeta, el código sería asi: 
+
+        &lt;a &gt;   href="quien-soy.html">Quién soy</a>. 
+    <p>
+
+        <center><img src="imagenes/estructura-enlace-html.jpeg" alt=""></center>
+    <aside> <center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </center>
+    </aside>
+    </section>
+    <footer>
+        <hr>
+        <center><p>&copy; 2022 Derechos de Autor</p></center>
+        <ul>
+          <center><li><a href="/Correo: meroblesh@unadvirtual.edu.co">Correo: meroblesh@unadvirtual.edu.co</a></li></center>
+          <center><li><a href="/Skype:marthinsrobher">Skype:marthinsrobher</a></li></center>
+          <center><li><a href="/Fecha">Fecha:18/04/2022</a></li></center>
+        </ul>
+        <hr>
+      </footer>
+</body>
+</html>
