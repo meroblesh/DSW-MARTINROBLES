@@ -11,7 +11,7 @@ img{
 
 }
 nav{
-    background-color:#ff717f;
+    background-color:#f4a300;
     color: white ;
   
 }
@@ -26,7 +26,7 @@ section{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr ;
    grid-column:1/4 ;
-   background-color: bisque;
+   background-color: #d4fff9;
 }
 
 footer{
