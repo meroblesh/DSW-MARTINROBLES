@@ -1,13 +1,14 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #7B113A;
-    color: bisque;
+    justify-content: center;
+    background-color: #ebf8cbf3;
+    color:black;
     
 }
 img{
-    padding: 10px;
+    padding: 15px;
+    justify-self: unset;
 
 }
 nav{
@@ -18,15 +19,14 @@ nav{
 
 aside{
     background-color: blue;
-    grid-template-columns: 1fr 1fr 1fr 1fr, ;
     grid-column:4/5 ;
     padding: 10px;
 }
 
 section{
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr ;
-   grid-column:1/4 ;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-column:1/8;
    background-color: #d4fff9;
 }
 
@@ -39,4 +39,12 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around ;
+}
+article{
+    background-color: #0eb0f0;
+    color: black;
+    padding: 15px;
+    justify-self: unset;
+    grid-column:2/4;
+
 }
