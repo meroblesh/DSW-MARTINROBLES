@@ -48,3 +48,40 @@ article{
     grid-column:2/4;
 
 }
+
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: column; 
+    } 
+    article{
+        flex-direction: column;
+    }
+    section{
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-width: 576px){
+    header{
+        flex-direction: column; 
+    } 
+    article{
+        flex-direction: column;
+    }
+    section{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 1400px){
+    header{
+        flex-direction: column; 
+    } 
+    article{
+        flex-direction: column;
+    }
+    section{
+        flex-direction: column;
+    }
+
+}
